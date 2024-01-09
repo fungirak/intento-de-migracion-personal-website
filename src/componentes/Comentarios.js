@@ -146,7 +146,7 @@ const Comentarios = () => {
       obtenerComentarios();
       console.log(comentarios);
      
-    }, [enviado])
+    }, [enviado, comentarios])
 
      
         // CARGA DE COMENTARIOS "VER MÁS".
