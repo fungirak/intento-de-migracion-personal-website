@@ -1,5 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import dynamic from 'next/dynamic';
 
+const MaterializeScript = dynamic(() => import('materialize-css'), {
+  ssr: false,
+});
 
 export default class MyDocument extends Document {
   render() {

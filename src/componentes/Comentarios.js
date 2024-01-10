@@ -171,7 +171,7 @@ const Comentarios = () => {
              }
 
             
-             comentariosMostrados.map( comentario => (console.log({comentario})));
+             //comentariosMostrados.map( comentario => (console.log({comentario})));
              setCargarComentarios(comentariosMostrados);
              console.log(comentariosMostrados);
              
@@ -199,7 +199,7 @@ const Comentarios = () => {
                comentariosMostrados[i] = comentarios[i];
              }
             
-             comentariosMostrados.map( comentario => (console.log({comentario})));
+             //comentariosMostrados.map( comentario => (console.log({comentario})));
              setCargarComentarios(comentariosMostrados);
              console.log(comentariosMostrados);
           }

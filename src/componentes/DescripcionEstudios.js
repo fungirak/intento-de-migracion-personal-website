@@ -10,6 +10,9 @@ import Certificado from './helpers/Certificado';
 import Banda from './helpers/Banda';
 
 import Modal from 'react-modal'
+import Image from 'next/image';
+
+
 
 const DescripcionEstudios = () => {
     const [currentImage, setCurrentImage] = useState()
