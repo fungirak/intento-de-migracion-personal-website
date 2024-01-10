@@ -4,6 +4,8 @@ import logoContacto from '../../public/img/logoContacto.png';
 import Banda from './helpers/Banda';
 import IconPerfil from './helpers/IconPerfil';
 import logoPoliticas from '../../public/img/logoPoliticas.png';
+import Image from 'next/image';
+
 
 const posicionar = () => {
     window.scroll(0, 510);
@@ -18,7 +20,7 @@ const DescripcionPersona = () => {
                 <div className="row d-flex justify-content-center m-1 efecto">
                     <div className="card col-md-4 m-3 col-sm-8 p-1 rounded border border-success shadow">
                         <div className="card-header d-flex justify-content-center bg-transparent border border-0">
-                            <img src="/img/fungi1.jpg" alt="" className="fungi shadow-lg border border-3 border-white efecto" />
+                            <Image src="/img/fungi1.jpg" alt="" className="fungi shadow-lg border border-3 border-white efecto" />
                         </div>
                         <div className="card-body">
                             <p className="text-muted">
@@ -31,7 +33,7 @@ const DescripcionPersona = () => {
 
                     <div className="card  col-md-4 m-3  col-sm-8  p-1 rounded border border-danger shadow">
                         <div className="card-header d-flex  justify-content-center bg-transparent border border-0">
-                            <img src="/img/fungi2.jpg" alt="" className="fungi  shadow-lg border border-3 border-white efecto " />
+                            <Image src="/img/fungi2.jpg" alt="" className="fungi  shadow-lg border border-3 border-white efecto " />
                         </div>
                         <div className="card-body">
                         <p className="text-muted text-center">
@@ -44,7 +46,7 @@ const DescripcionPersona = () => {
                             <br /> ó en la sección de <b>chat</b>
                             <div className="mt-3 d-flex justify-content-center">
                                 <a href="/contacto">
-                                <img src="/img/logoContacto.png" alt="Logo de Contacto" className="icon-pres efecto" />
+                                <Image src="/img/logoContacto.png" alt="Logo de Contacto" className="icon-pres efecto" />
                                 </a>
                             </div>
                         </p>

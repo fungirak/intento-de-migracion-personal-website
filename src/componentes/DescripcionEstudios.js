@@ -9,6 +9,9 @@ import Certificado from './helpers/Certificado';
 import Banda from './helpers/Banda';
 
 import Modal from 'react-modal'
+import Image from 'next/image';
+
+
 
 const DescripcionEstudios = () => {
     const [currentImage, setCurrentImage] = useState()
@@ -48,7 +51,7 @@ const DescripcionEstudios = () => {
                         
                         
                             <Modal isOpen={modalIsOpen}  onRequestClose={() => modalHandler(false, currentImage)} style={{content: {right: "18%", left: "18%", top: "0%"  } }} >
-                                <img src={currentImage} alt="..."   className="diplomas"/>
+                                <Image src={currentImage} alt="..."   className="diplomas"/>
                             </Modal>
                     
                         </div>

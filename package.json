@@ -5,8 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+<<<<<<< HEAD
     "start": "next start",
     "deploy": "npm run build && gh-pages -d out"
+=======
+    "start": "next start"
+>>>>>>> b5ba1339e692ff279e5cbd123587abbd3f22145c
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -30,6 +34,7 @@
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.0.4",
+    "eslint-plugin-next": "^0.0.0",
     "gh-pages": "^3.2.3",
     "github-linguist": "^2.4.3"
   }
