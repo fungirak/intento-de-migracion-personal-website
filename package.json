@@ -5,12 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-<<<<<<< HEAD
     "start": "next start",
     "deploy": "npm run build && gh-pages -d out"
-=======
-    "start": "next start"
->>>>>>> b5ba1339e692ff279e5cbd123587abbd3f22145c
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
