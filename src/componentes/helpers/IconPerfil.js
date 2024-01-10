@@ -9,7 +9,7 @@ const IconPerfil = ({pos, logo, ruta}) => {
          
             <Link to={ruta}>
                 <button className="m-1 bg-transparent border border-0 efecto" onClick={pos} >
-                    <Image src={logo} className="icon-pres  p-2" alt="..." />
+                    <Image width="10" height="10" src={logo} className="icon-pres  p-2" alt="..." />
                 </button>
             </Link>
         

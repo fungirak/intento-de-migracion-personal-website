@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
-import swal from 'sweetalert';
-import M from 'materialize-css';
+//import swal from 'sweetalert';
+//import M from 'materialize-css';
 
 
 const Comentarios = () => {

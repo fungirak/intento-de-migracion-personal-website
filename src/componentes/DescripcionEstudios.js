@@ -49,7 +49,7 @@ const DescripcionEstudios = () => {
                         
                         
                             <Modal isOpen={modalIsOpen}  onRequestClose={() => modalHandler(false, currentImage)} style={{content: {right: "18%", left: "18%", top: "0%"  } }} >
-                                <Image src={currentImage} alt="..."   className="diplomas"/>
+                                <Image width="10" height="10" src={currentImage} alt="..."   className="diplomas"/>
                             </Modal>
                     
                         </div>

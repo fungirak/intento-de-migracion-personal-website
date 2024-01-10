@@ -21,7 +21,7 @@ const Portada = () => {
             <div className=" d-flex superior justify-content-end  animate__animated animate__fadeIn animate__delay-5s">
                 <h6 className="text-white fw-bold  font-sm"></h6>
                 <a href="https://mpago.la/242gBtS" target="_blank" rel="noopener noreferrer" alt="Colaborar con el sitio" className=" mt-3 d-flex justify-content-center text-white fw-bold  btn btn-sm ms-4 bg-verde   rounded">
-                    <Image src="/img/logoColaboracion.png" alt="colaborar" className="logoColab me-2 " />
+                    <Image width="10" height="10" src="/img/logoColaboracion.png" alt="colaborar" className="logoColab me-2 " />
                     <h6 className="font-sm"></h6>
                 </a>
                 <div className="me-3"></div>
@@ -29,8 +29,8 @@ const Portada = () => {
 
 
             <div className="d-flex justify-content-center">
-                <Image src="/img/fotoPerfil.jpg" alt="" className="foto-perfil ajuste-perfil shadow-lg efecto"/>
-                <Image src="/img/update/LogoUTN.png" alt="" className="burbuja-flotante shadow efecto animate__animated animate__bounceInDown"/>
+                <Image width="10" height="10" src="/img/fotoPerfil.jpg" alt="" className="foto-perfil ajuste-perfil shadow-lg efecto"/>
+                <Image width="10" height="10" src="/img/update/LogoUTN.png" alt="" className="burbuja-flotante shadow efecto animate__animated animate__bounceInDown"/>
             </div>
 
             <div className="d-flex justify-content-center">

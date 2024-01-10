@@ -1,5 +1,5 @@
 {
-  "name": "fungirak-next-punto-com",
+  "name": "fungirak-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,6 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.0.2",
     "firebase": "^9.6.10",
-    "materialize-css": "^1.0.0-rc.2",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-bootstrap": "^2.1.1",

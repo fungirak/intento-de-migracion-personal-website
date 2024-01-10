@@ -6,7 +6,7 @@ const Certificado = ({certificado, modH, titulo, link }) => {
             <h5>{titulo}</h5>
                   <button onClick={() => modH(true, certificado)} className="mb-4 border border-0 bg-transparent">
                         <a href={link ? link : null} target="_blank">
-                              <Image src={certificado} alt="" className="certificado shadow-lg" />
+                              <Image width="10" height="10" src={certificado} alt="" className="certificado shadow-lg" />
                         </a>
                   </button>
             
