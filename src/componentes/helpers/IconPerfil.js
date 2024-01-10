@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import Image from 'next/image';
 
 const IconPerfil = ({pos, logo, ruta}) => {
   return <div>
@@ -8,7 +9,7 @@ const IconPerfil = ({pos, logo, ruta}) => {
          
             <Link to={ruta}>
                 <button className="m-1 bg-transparent border border-0 efecto" onClick={pos} >
-                    <img src={logo} className="icon-pres  p-2" alt="..." />
+                    <Image src={logo} className="icon-pres  p-2" alt="..." />
                 </button>
             </Link>
         

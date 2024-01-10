@@ -146,7 +146,7 @@ const Comentarios = () => {
       obtenerComentarios();
       console.log(comentarios);
      
-    }, [enviado])
+    }, [enviado, comentarios])
 
      
         // CARGA DE COMENTARIOS "VER MÁS".
@@ -268,10 +268,10 @@ const Comentarios = () => {
             <h3 className="text-center mt-3  fw-normal p-2 shadow-lg rounded-pill mb-5">Comentarios</h3>
                 <div className="row justify-content-center ">
                     
-                    {
+                    {/*
                         cargarComentarios.map( comentario => (
                             <div className="row ">
-                              <div className="col-12  d-flex p-2 shadow rounded border " key={comentario._id}>
+                              <div className="col-12  d-flex p-2 shadow rounded border "  key={comentario._id || Math.random()}>
                                 <div className="col-1 mt-3 ml-2 ms-3">
                                   <i className="small material-icons">account_circle</i>
                                 </div>
@@ -291,7 +291,7 @@ const Comentarios = () => {
                               </div>
                             </div>
                         ))
-                    }
+                        */}
                 </div>
 
                 

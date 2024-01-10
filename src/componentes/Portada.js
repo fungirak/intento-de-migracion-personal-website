@@ -2,7 +2,7 @@
 import fotoPerfil from '../../public/img/fotoPerfil.jpg';
 import logoPoster from '../../public/img/logoPoster.png';
 import logoColaboracion from '../../public/img/logoColaboracion.png';
-
+import Image from 'next/image';
 
 const Portada = () => {
 
@@ -21,7 +21,7 @@ const Portada = () => {
             <div className=" d-flex superior justify-content-end  animate__animated animate__fadeIn animate__delay-5s">
                 <h6 className="text-white fw-bold  font-sm"></h6>
                 <a href="https://mpago.la/242gBtS" target="_blank" rel="noopener noreferrer" alt="Colaborar con el sitio" className=" mt-3 d-flex justify-content-center text-white fw-bold  btn btn-sm ms-4 bg-verde   rounded">
-                    <img src="/img/logoColaboracion.png" alt="colaborar" className="logoColab me-2 " />
+                    <Image src="/img/logoColaboracion.png" alt="colaborar" className="logoColab me-2 " />
                     <h6 className="font-sm"></h6>
                 </a>
                 <div className="me-3"></div>
@@ -29,8 +29,8 @@ const Portada = () => {
 
 
             <div className="d-flex justify-content-center">
-                <img src="/img/fotoPerfil.jpg" alt="" className="foto-perfil ajuste-perfil shadow-lg efecto"/>
-                <img src="/img/update/LogoUTN.png" alt="" className="burbuja-flotante shadow efecto animate__animated animate__bounceInDown"/>
+                <Image src="/img/fotoPerfil.jpg" alt="" className="foto-perfil ajuste-perfil shadow-lg efecto"/>
+                <Image src="/img/update/LogoUTN.png" alt="" className="burbuja-flotante shadow efecto animate__animated animate__bounceInDown"/>
             </div>
 
             <div className="d-flex justify-content-center">

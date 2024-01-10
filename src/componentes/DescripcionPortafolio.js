@@ -8,6 +8,7 @@ import logoSms from '../../public/img/logoSms.jpg';
 import logoAerolineas from '../../public/img/logoAerolineas.jpg';
 import logoFungirakWebsite from '../../public/img/logoFungirakWebsite.png';
 import logoArgProg from '../../public/img/logoArgProg.png';
+import Image from 'next/image';
 
 import Comentarios from './Comentarios';
 import Banda from './helpers/Banda';
@@ -24,19 +25,19 @@ const DescripcionPortafolio = () => {
                     <div className="col-sm-10 col-md-12 text-center card-body">
                         <h5 className="text-center  bg-dark p-1 rounded-pill text-white shadow fw-normal mb-2">PROYECTO FINAL ARGENTINA PROGRAMA</h5>
                         <h6 className="text-center   text-dark  fw-normal mb-3">• FULLSTACK • JAVA & ANGULAR •</h6>
-                            <img src="/img/logoArgProg.png" alt="avion" className="app shadow-lg rounded efecto" />
+                            <Image src="/img/logoArgProg.png" alt="avion" className="app shadow-lg rounded efecto" />
 
                         <div className="text-center">
                                 <a href="https://proyecto-arg-prog-frontend.web.app" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-primary p-2 m-3 ">
-                                        <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
+                                        <Image src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">ABRIR</span>
                                     </button>
                                 </a>
 
                                 <a href="https://github.com/fungirak" target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-dark p-2 m-3">
-                                    <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
+                                    <Image src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">CÓDIGO</span>
                                 </button>
                                 </a>
@@ -48,19 +49,19 @@ const DescripcionPortafolio = () => {
                     <div className="col-sm-10 col-md-12 text-center card-body">
                         <h5 className="text-center  bg-dark p-1 rounded-pill text-white shadow fw-normal mb-2">GESTIÓN DE INVITADOS</h5>
                         <h6 className="text-center  text-dark  fw-normal mb-3">• FULLSTACK • MERN •</h6>
-                            <img src="/img/invitados.png" alt="" className="app shadow-lg rounded efecto  " />
+                            <Image src="/img/invitados.png" alt="" className="app shadow-lg rounded efecto  " />
 
                         <div className="text-center">
                                 <a href="https://fungirak.github.io/invitados-al-evento/" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-primary p-2 m-3 ">
-                                        <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
+                                        <Image src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">ABRIR</span>
                                     </button>
                                 </a>
 
                                 <a href="https://github.com/fungirak/invitados-al-evento" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-dark p-2 m-3">
-                                        <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
+                                        <Image src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">CÓDIGO</span>
                                     </button>
                                 </a>
@@ -74,19 +75,19 @@ const DescripcionPortafolio = () => {
                     <div className="col-sm-10 col-md-12 text-center card-body">
                         <h5 className="text-center  bg-dark p-1 rounded-pill text-white shadow fw-normal mb-2">SMS APP</h5>
                         <h6 className="text-center   text-dark  fw-normal mb-3">• FULL STACK • MERN •</h6>
-                            <img src="/img/logoSms.jpg" alt="" className="app shadow-lg rounded efecto " />
+                            <Image src="/img/logoSms.jpg" alt="" className="app shadow-lg rounded efecto " />
 
                         <div className="text-center">
                                 <a href="https://www.fungirak.com/sms-app-react/" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-primary p-2 m-3 ">
-                                        <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
+                                        <Image src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">ABRIR</span>
                                     </button>
                                 </a>
 
                                 <a href="https://github.com/fungirak/sms-app-react" target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-dark p-2 m-3">
-                                    <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
+                                    <Image src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">CÓDIGO</span>
                                 </button>
                                 </a>
@@ -98,19 +99,19 @@ const DescripcionPortafolio = () => {
                     <div className="col-sm-10 col-md-12 text-center card-body">
                         <h5 className="text-center  bg-dark p-1 rounded-pill text-white shadow fw-normal mb-2">FUNGIRAK WEBSITE (This)</h5>
                         <h6 className="text-center  text-dark  fw-normal mb-3">• FULLSTACK • MERN •</h6>
-                            <img src="/img/logoFungirakWebsite.png" alt="" className="app shadow-lg rounded efecto  " />
+                            <Image src="/img/logoFungirakWebsite.png" alt="" className="app shadow-lg rounded efecto  " />
 
                         <div className="text-center">
                                
                                     <span className="btn btn-sm  green accent-4  p-2 m-3 ">
-                                        <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
+                                        <Image src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                         <span className="fw-bold text-light">EN VIVO</span>
                                     </span>
                                
 
                                 <a href="https://github.com/fungirak/new-fungirak-website-2022" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-dark p-2 m-3">
-                                        <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
+                                        <Image src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">CÓDIGO</span>
                                     </button>
                                 </a>
@@ -125,19 +126,19 @@ const DescripcionPortafolio = () => {
                         <h5 className="text-center  bg-dark p-1  rounded-pill text-white shadow fw-normal mb-2">PANEL DEL ESTUDIANTE</h5>
                         <h6 className="text-center  text-dark  fw-normal mb-3">• FRONTEND • HTML •</h6>
                         
-                            <img src="/img/atajos.png" alt="" className="app shadow-lg rounded  efecto" />
+                            <Image src="/img/atajos.png" alt="" className="app shadow-lg rounded  efecto" />
                         
                         <div className="text-center ">
                             <a href="https://fungirak.github.io/losAtajosDeFungi/" target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-primary p-2 m-3 ">
-                                    <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
+                                    <Image src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">ABRIR</span>
                                 </button>
                             </a>
 
                             <a href="https://github.com/fungirak/losAtajosDeFungi" target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-dark p-2 m-3">
-                                    <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
+                                    <Image src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">CÓDIGO</span>
                                 </button>
                             </a>
@@ -152,20 +153,20 @@ const DescripcionPortafolio = () => {
                         <h5 className="text-center bg-dark p-1 rounded-pill text-white shadow fw-normal mb-2">HACETE SOCIO</h5>
                         <h6 className="text-center  text-dark fw-normal mb-3">• FRONTEND • REACT •</h6>
                       
-                            <img src="/img/logoSocio.jpeg" alt="" className="app shadow-lg rounded efecto  " />
+                            <Image src="/img/logoSocio.jpeg" alt="" className="app shadow-lg rounded efecto  " />
               
 
                         <div className="text-center">
                             <a href="https://fungirak.github.io/Hacete-Socio-COLON-UNION-ReactJS/" target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-primary p-2 m-3 ">
-                                    <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
+                                    <Image src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">ABRIR</span>
                                 </button>
                             </a>
 
                             <a href="https://github.com/fungirak/Hacete-Socio-COLON-UNION-ReactJS" target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-dark p-2 m-3">
-                                    <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
+                                    <Image src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">CÓDIGO</span>
                                 </button>
                             </a>
