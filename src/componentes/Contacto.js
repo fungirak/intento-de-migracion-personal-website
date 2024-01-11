@@ -67,7 +67,7 @@ const Contacto = () => {
           });
           // SI
 
-          fetch('https://evening-ocean-33508.herokuapp.com/contacto', {
+          fetch('http://localhost:4000/contacto', {
             headers: {
               'Accept': 'application/json',
               'Content-Type': 'application/json'

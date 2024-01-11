@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import swal from 'sweetalert';
-import M from 'materialize-css';
+//import M from 'materialize-css';
 
 
 const Comentarios = () => {
@@ -76,8 +76,8 @@ const Comentarios = () => {
      
     const guardarComentario = () => {
       console.log("Se ejecuta función guardarComentario() ")
-      /* DESCOMENTAR CUANDO HAYA SERVIDOR BACKEND
-      fetch('https://evening-ocean-33508.herokuapp.com/comentarios', {
+     
+      fetch('http://localhost:4000/comentarios', {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -106,12 +106,12 @@ const Comentarios = () => {
         
           //setEnviado(false);
          
-         */
+         
       }
     }
 
-    /*
-    fetch('https://evening-ocean-33508.herokuapp.com/comentarios', {
+    
+    fetch('http://localhost:4000/comentarios', {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -120,13 +120,13 @@ const Comentarios = () => {
       })
         .then((comentarios) => comentarios.json(comentarios))
         .then((comentarios) => setComentarios(comentarios))
-    */   
+    
       
 
     const obtenerComentarios = () => {
       console.log("Se ejecuta función obtenerCOmentarios()")
-      /*
-      fetch('https://evening-ocean-33508.herokuapp.com/comentarios', {
+      
+      fetch('http://localhost:4000/comentarios', {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
@@ -138,7 +138,7 @@ const Comentarios = () => {
         
         console.log(comentarios)
 
-        */
+        
     }
  
 

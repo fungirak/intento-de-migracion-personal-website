@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 import '@/styles/globals.css';
 //import '@/styles/Home.module.css';
 //import '@/componentes/css/estilos.css'
-import '@/componentes/materialize/css/materialize.min.css';
+//import '@/componentes/materialize/css/materialize.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
