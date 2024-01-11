@@ -1,7 +1,10 @@
 
-body{
+body, html{
   overflow-x: hidden;
   user-select: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 a,
