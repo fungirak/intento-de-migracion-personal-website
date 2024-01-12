@@ -3,7 +3,14 @@
     "routes": [
       { "src": "/emails", "dest": "/routes/emails.js" },
       { "src": "/comentarios", "dest": "/routes/comentarios.js" },
-      { "src": "/(.*)", "dest": "/index.js" }
+      { "src": "/(.*)", "dest": "/index.js" },
+      { "src": "/api/:path*",
+          "methods": ["GET", "POST", "PUT", "DELETE"],
+          "headers": {
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+            "Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Authorization"
+      }}
     ],
     "github": {
       "branch": "master"
