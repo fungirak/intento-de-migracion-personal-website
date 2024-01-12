@@ -1,7 +1,16 @@
 import nodemailer from 'nodemailer';
 import Emails from '../../models/email'; // Asegúrate de que la ruta sea correcta
 
-const transporter = nodemailer.createTransport({
+const transporter1 = nodemailer.createTransport({
+    host: process.env.EMAIL_HOST,
+    port: process.env.EMAIL_PORT,
+    auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+    },
+});
+
+const transporter2 = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
     port: process.env.EMAIL_PORT,
     auth: {
@@ -29,7 +38,7 @@ export default async function handler(req, res) {
 
 async function sendEmail(email) {
     try {
-        let infoAdmin = await transporter.sendMail({
+        let infoAdmin = await transporter1.sendMail({
             from: `"FUNGIRAK" <${process.env.EMAIL_USER}>`,
             to: process.env.EMAIL_ADMIN,
             subject: `${email.nombre} ${email.apellido}`,
@@ -50,7 +59,7 @@ async function sendEmail(email) {
 
         console.log("Mensaje enviado al administrador: %s", infoAdmin.messageId);
 
-        let infoUser = await transporter.sendMail({
+        let infoUser = await transporter2.sendMail({
             from: `"FUNGIRAK" <fungirak@gmail.com>`,
             to: `${email.emisor}`,
             subject: "Mensaje entregado satisfactoriamente.",
