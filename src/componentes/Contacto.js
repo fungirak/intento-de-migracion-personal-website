@@ -67,7 +67,7 @@ const Contacto = () => {
           });
           // SI
 
-          fetch('https://server-website-ten.vercel.app/contacto', {
+          fetch('https://www.fungirak.com/api/contacto', {
             headers: {
               'Accept': 'application/json',
               'Content-Type': 'application/json'
