@@ -60,7 +60,7 @@ async function sendEmail(email) {
             `,
             attachments: [{
                 filename: 'fungirak-services.pdf',
-                path: '/email/fungirak-services.pdf',
+                path: 'email/fungirak-services.pdf',
                 contentType: 'application/pdf',
             }],
         });
