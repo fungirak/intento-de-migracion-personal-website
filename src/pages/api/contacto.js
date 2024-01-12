@@ -23,7 +23,7 @@ const transporter2 = nodemailer.createTransport({
 export default async function handler(req, res) {
     if (req.method === 'POST') {
         const emailData = req.body;
-        const email = Emails(emailData);
+        const email = new Emails(emailData);
 
         try {
             await sendEmail(email);
@@ -70,7 +70,7 @@ async function sendEmail(email) {
             `,
             attachments: [{
                 filename: 'fungirak-services.pdf',
-                path: path.join(__dirname, 'public/email/fungirak-services.pdf'),
+                path: path.join(__dirname, '../../email/fungirak-services.pdf'),
                 contentType: 'application/pdf',
             }],
         });
