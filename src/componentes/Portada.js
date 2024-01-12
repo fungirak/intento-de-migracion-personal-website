@@ -4,6 +4,7 @@ import logoPoster from '../../public/img/logoPoster.png';
 import logoColaboracion from '../../public/img/logoColaboracion.png';
 
 
+
 const Portada = () => {
 
     
@@ -20,10 +21,14 @@ const Portada = () => {
 
             <div className=" d-flex superior justify-content-end  animate__animated animate__fadeIn animate__delay-5s">
                 <h6 className="text-white fw-bold  font-sm"></h6>
+
                 <a href="https://mpago.la/242gBtS" target="_blank" rel="noopener noreferrer" alt="Colaborar con el sitio" className=" mt-3 d-flex justify-content-center text-white fw-bold  btn btn-sm ms-4 bg-verde   rounded">
                     <img src="/img/logoColaboracion.png" alt="colaborar" className="logoColab me-2 " />
                     <h6 className="font-sm"></h6>
-                </a>
+                </a>     
+
+                
+
                 <div className="me-3"></div>
             </div>
 
@@ -44,7 +49,7 @@ const Portada = () => {
                 <h6 className=" text-center fw-lighter animate__animated animate__fadeIn animate__delay-3s">Universidad Tecnológica Nacional</h6>
             </div>
 
-            
+           
             
             </div>
 
