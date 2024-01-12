@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
-import Emails from '../../models/email'; // Asegúrate de que la ruta sea correcta
+import Emails from '../../models/email';
+import path from 'path';
 
 const transporter1 = nodemailer.createTransport({
     host: process.env.EMAIL_HOST,
