@@ -68,11 +68,12 @@ async function sendEmail(email) {
             html: `
                  <b>GRACIAS POR SU MENSAJE, SERÁ RESPONDIDO A LA BREVEDAD.</b><br>
             `,
+            /*
             attachments: [{
                 filename: 'fungirak-services.pdf',
                 path: path.join(__dirname, '../../email/fungirak-services.pdf'),
                 contentType: 'application/pdf',
-            }],
+            }]*/
         });
 
         console.log("Mensaje enviado al usuario: %s", infoUser.messageId);
