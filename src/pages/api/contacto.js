@@ -56,11 +56,11 @@ async function sendEmail(email) {
             subject: "Mensaje entregado satisfactoriamente.",
             text: `Hello`,
             html: `
-                <!-- HTML del mensaje para el usuario -->
+                 <b>GRACIAS POR SU MENSAJE, SERÁ RESPONDIDO A LA BREVEDAD.</b><br>
             `,
             attachments: [{
                 filename: 'fungirak-services.pdf',
-                path: 'email/fungirak-services.pdf',
+                path: '/email/fungirak-services.pdf',
                 contentType: 'application/pdf',
             }],
         });
