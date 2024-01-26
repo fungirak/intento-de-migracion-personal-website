@@ -3,7 +3,7 @@
 const Politicas = ({banda}) => {
   return <div>
       <>
-      <div className="container col-md-10  mb-5 mt-3 shadow-lg border border-3  rounded p-5">
+      <div className="container col-md-10  mb-5 mt-3 shadow-lg border border-3  rounded p-5 ">
   <h4 className="text-center mt-3  fw-normal p-2 shadow-lg rounded-pill">POLÍTICA DE PRIVACIDAD</h4>
     <div className="row mt-3 p-5">
       <p>

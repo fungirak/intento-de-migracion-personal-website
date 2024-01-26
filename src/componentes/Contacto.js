@@ -1,16 +1,15 @@
 import { useState, useEffect } from 'react';
 import swal from 'sweetalert';
 import Banda from './helpers/Banda';
+import { Checkbox } from 'antd';
 
-// Reemplazar estos dos componentes que generan inconscistencias entre las versiones de react/next/mui.
-// import { FormControlLabel } from '@mui/material';
-// import { Checkbox } from "@mui/material";
+
 
 
 const Contacto = () => {
-
+   
     const [boolCompleto, setBoolCompleto] = useState(false);
-    const [boolPoliticas, setBoolPoliticas] = useState(true);
+    const [boolPoliticas, setBoolPoliticas] = useState(false);
     const [enviado, setEnviado] = useState(false);
     const [datos, setDatos] = useState({
         asunto: '',
@@ -129,9 +128,10 @@ const Contacto = () => {
     },[])
     */
     
-    const handlePoliticas = () => {
+    const handlePoliticas = async () => {
       setBoolPoliticas(!boolPoliticas);
     }
+
 
     
 
@@ -197,15 +197,11 @@ const Contacto = () => {
           </div>
         </div>
 
-     
-      {/*  REEMPLAZAR COMPONENTE (INCONSISTENCIA DE VERSIONES ENTRE TECNOLOGÍAS)
 
-        <FormControlLabel 
-          control={<Checkbox defaultChecked={boolPoliticas} color="success" onChange={handlePoliticas}/>} 
-          label="Acepto la Política de Privacidad" 
-          className="mb-3"
-        />
-        */}
+        <Checkbox checked={boolPoliticas} onChange={handlePoliticas} className="mb-3" >
+          Acepto la{' '}<a href="/politicas">Política de Privacidad</a>
+        </Checkbox>
+
 
           <div className="row col s12 text-center">
           <button className={`btn waves-effect waves-light ${ boolPoliticas ? 'bg-primary' : 'disabled' }`} type="submit" disabled={!boolCompleto}  >

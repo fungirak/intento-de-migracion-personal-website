@@ -51,14 +51,14 @@ const DescripcionPortafolio = () => {
                             <img src="/img/invitados.png" alt="" className="app shadow-lg rounded efecto  " />
 
                         <div className="text-center">
-                                <a href="https://fungirak.github.io/invitados-al-evento/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://deploy-next-invitados.vercel.app" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-primary p-2 m-3 ">
                                         <img src="/img/logoFlecha.png" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">ABRIR</span>
                                     </button>
                                 </a>
 
-                                <a href="https://github.com/fungirak/invitados-al-evento" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/fungirak/invitados-next" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-dark p-2 m-3">
                                         <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">CÓDIGO</span>
@@ -84,7 +84,7 @@ const DescripcionPortafolio = () => {
                                     </button>
                                 </a>
 
-                                <a href="https://github.com/fungirak/sms-app-react" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/fungirak/SMS-App-React-waiting-migration..." target="_blank" rel="noopener noreferrer">
                                 <button className="btn btn-sm btn-dark p-2 m-3">
                                     <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                     <span className="fw-bold">CÓDIGO</span>
@@ -108,7 +108,7 @@ const DescripcionPortafolio = () => {
                                     </span>
                                
 
-                                <a href="https://github.com/fungirak/new-fungirak-website-2022" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/fungirak/personal-website-react-next/tree/master" target="_blank" rel="noopener noreferrer">
                                     <button className="btn btn-sm btn-dark p-2 m-3">
                                         <img src="/img/logoGithub.svg" alt="..." className="logo-xsm" />
                                         <span className="fw-bold">CÓDIGO</span>
